@@ -14,7 +14,8 @@ This repository hosts a CUDA-based application designed for encrypting and decry
 
 The application's performance has been significantly enhanced by using CUDA concurrent streams. Below is a profiling snapshot that demonstrates the parallel execution of decryption tasks:
 
-![CUDA Streams Profiling](profiling.jpg)
+![Performance Profiling with CUDA Concurrent Streams](profiling.jpg)  
+_Figure: Profiling snapshot showing extensive overlapping of copy/compute operations via concurrent streams._
 
 ## Building the Application
 
