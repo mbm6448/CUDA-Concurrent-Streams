@@ -4,10 +4,6 @@
 
 This repository hosts a CUDA-based application designed for encrypting and decrypting large data sets. The application has been optimized using CUDA concurrent streams to achieve concurrent copy and compute operations, which has halved the runtime.
 
-## What's New
-
-Recent refactoring has introduced the use of CUDA concurrent streams, enabling concurrent copy/compute operations and cutting the total execution time by half.
-
 ## Key Components
 
 - **`streams.cu`**: Main module that manages encryption and decryption processes using GPU capabilities.
